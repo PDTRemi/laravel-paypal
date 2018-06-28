@@ -25,7 +25,7 @@
         "illuminate/support": "~5.0",
         "ext-curl": "*",
         "ext-json": "*",
-        "paypal/rest-api-sdk-php": "1.6.4"
+        "PDTRemi/PayPal-PHP-SDK": "1.6.4"
     },
     "require-dev":{
         "phpspec/phpspec": "~2.0"
