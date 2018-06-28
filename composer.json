@@ -8,13 +8,18 @@
             "email": "balkanski@outlook.com"
         }
     ],
-    "repositories":
-    [
-        {
-            "type": "vcs",
-            "url": "https://github.com/PDTRemi/PayPal-PHP-SDK"
+    "repositories": [{
+        "type": "package",
+        "package": {
+            "version": "dev-master",
+            "name": "paypal/rest-api-sdk-php",
+            "source": {
+                "url": "https://github.com/PDTRemi/PayPal-PHP-SDK",
+                "type": "git",
+                "reference": "master"
+            }
         }
-    ],
+    }],
     "require": {
         "php": ">=5.3.0",
         "illuminate/support": "~5.0",
